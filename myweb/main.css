@@ -1,0 +1,42 @@
+.head {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+    height: 50px; /* Высота блока */
+   }
+h1 {
+    color: red;
+}
+.red_text {
+    background-color: blue;
+    height: 60px; /* Высота блока */
+    width: 140px; /* Ширина блока */
+    border: 1px solid #333; /* Параметры рамки */
+}
+.next {
+    background-color: green;
+    color: white;
+}
+.indent {
+    background-color: green;
+    color: white;
+    padding: 40px 30px;
+}
+.right_indent {
+    padding-left: 40px;
+}
+li {
+    border: 1px solid #666;
+}
+.nice_start {   
+    background-color: green;
+}
+.colortext {
+    color: red;
+}
+.ledge {
+    padding-top: 50px;
+}

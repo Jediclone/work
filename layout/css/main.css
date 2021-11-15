@@ -1,0 +1,288 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+	color: #201b2d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+.span {
+	font-family:'Open Sans', sans-serif;;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background: rgba(78,189,254,1);
+	background: -moz-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(to right, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.offer {
+	width: 490px;
+}
+
+.title {
+	font-size: 37px;
+	color: #fff;
+}
+
+.title span {
+	color: #ffffff;
+	font-size: 58px;
+}
+
+.intro {
+	margin-bottom: 37px;
+	margin-top: 30px;
+	width: 380px;
+	color: #fff;
+}
+
+.btn {
+	font-family: 'Ubuntu', sans-serif;
+	background: #ffd429;
+	color: #fff;
+	border-radius: 100px;
+	display: block;
+	width: 205px;
+	padding: 19px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #e0b60e;
+}
+
+.desktop {
+	margin-top: 63px;
+}
+
+.learn {
+	padding-top: 114px;
+	padding-bottom: 120px;
+}
+
+.section-title {
+	font-size: 30px;
+	text-align: center;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+}
+
+.skill {
+	width: 300px;
+	background: url('../img/icon1.jpg') no-repeat top;
+	padding-top: 100px;
+}
+
+.skill-title {
+	font-size: 19px;
+	padding-left: 10px;
+	text-align: center;
+}
+
+.skill-text {
+	margin-top: 7px;
+	padding-left: 5px;
+	text-align: center;
+}
+
+.skill-free {
+	width: 380px;
+	background: url('../img/icon2.jpg') no-repeat top;
+}
+
+.skill-change {
+	background: url('../img/icon3.jpg') no-repeat top;
+}
+
+.mail {
+	background: #efecf4;
+	padding-top: 173px;
+	padding-bottom: 190px;
+}
+
+.form {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.input {
+	width: 340px;
+	border: 1px solid #bfb8d1;
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+	height: 54px;
+	padding-left: 38px;
+	Display: block;
+	margin: 0 auto;
+}
+
+.btn-form {
+	width: 340px;
+	border: 1px solid #bfb8d1;
+	font-size: 15px;
+	height: 54px;
+	cursor: pointer;
+	display: block;
+	border-radius: 0px;
+	margin: 0 auto;
+}
+
+.footer {
+	padding: 33px 0;
+	background: #164d7a;
+	text-align: center;
+}
+
+.credits {
+	color: #fff;
+	font-size: 14px;
+}
+
+/* Bootstrap */
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+	
+	.desktop {
+		display: block;
+		width: 450px;
+		margin: 72px auto 0;
+	}
+	.skills {
+		flex-direction: column;
+	}
+	.skill {
+		width: auto;
+		margin-bottom: 20px;
+	}
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+
+	.wrapper {
+		flex-direction: column;
+
+	}
+	.offer {
+		width: 100%;
+	}
+	.intro {
+		width: 100%;
+	}
+	.desktop {
+		display: block;
+		width: 400px;
+		margin: 72px auto 0;
+	}
+	.skills {
+		flex-direction: column;
+	}
+	.skill {
+		width: auto;
+		margin-bottom: 20px;
+	}
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: auto;
+	}
+	.wrapper {
+		flex-direction: column;
+
+	}
+	.offer {
+		width: 100%;
+	}
+	.intro {
+		width: 100%;
+	}
+	.desktop {
+		display: block;
+		width: 350px;
+		margin: 72px auto 0;
+	}
+	.skills {
+		flex-direction: column;
+	}
+	.skill {
+		width: auto;
+		margin-bottom: 2
+	}
+}
+
+/* 0px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 95%;
+	}
+	.wrapper {
+		flex-direction: column;
+
+	}
+	.offer {
+		width: 100%;
+	}
+	.intro {
+		width: 100%;
+	}
+	.desktop {
+		display: block;
+		width: 70%;
+		margin: 60px auto 0;
+	}
+	.skills {
+		flex-direction: column;
+	}
+	.skill {
+		width: auto;
+		margin-bottom: 2;
+	}
+}
